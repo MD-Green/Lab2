@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lab2 Meeting Minutes</title>
+        <meta name="author" content="Matthew Green">
+        <meta name="description" content="Meeting minutes for meeting on what to eat.">
+        <meta name="keywords" content="HTML">
+        <link rel="icon"
+        type="image/png"
+        href="https://i.kym-cdn.com/photos/images/newsfeed/000/925/494/218.png_large">
+    </head>
+    <body>
+        <main>
+            <nav>
+                <ul>
+                    <a href="https://bongo.cat/">Bongo</a>
+                    <a href="https://smashthewalls.com">Smash</a>
+                    <a href="https://hackertyper.net/">Hack</a>
+                </ul>
+            </nav>
+            <div>
+            <header>
+                <section>
+                    <h1>Meeting Minutes: What to Eat?</h1>
+                    <p>This meeting was called to discuss the <em>majorly</em> important and controversial topic of what food we should get. <br> 
+                        We will begin by each listing our top three choices, then using this data we will determine the best choice.
+                    </p>
+                    <h2>Green's Choices</h2>
+                    <ol type="1">
+                        <li>Thai</li>
+                        <li>Indian</li>
+                        <li>Poke</li>
+                    </ol>
+                    <h2>Gage's Choices</h2>
+                    <ol type="1">
+                        <li>Burgers</li>
+                        <li>Burritos</li>
+                        <li>Indian</li>
+                    </ol>
+                    <h2>Cameron's Choices</h3>
+                    <ol type="1">
+                        <li>Poke</li>
+                        <li>Indian</li>
+                        <li>Burgers</li>
+                    </ol>
+                </section>
+                <section>
+                    <h1>Data Extrapolation</h1>
+                    <p>To now determine the best choice based on our given lists we must assign points to our rankings.<br>
+                        We could simply assign rank one choices to have 3 points then rank two with 2 points and rank 3 with 1 point, <br>
+                        however it will be better to keep a more even value split to prioritize choices shared among the lists. <br>
+                        Therefore we will have a point split of 5-4-3 which will give us the rankings of:
+                    </p>
+                    <ol type="1">
+                        <li><b>Indian - 12</b></li>
+                        <li>Poke - 8</li>
+                        <li>Burgers - 8</li>
+                        <li>Thai - 5</li>
+                        <li>Burritos - 4</li>
+                    </ol>
+                </section>
+                <section>
+                    <h1>Conclusions</h1>
+                    <p>With all points tallied we have concluded that Indian food is what we will be getting. <br>
+                        With that settled our <strong>next meeting we will discuss what we will be ordering from said Indian restaurant.</strong> <br>
+                        This meeting will be held in roughly 30 minutes when we arrive at the restaurant with menus in hand.
+                    </p>
+                </section>
+            </header>
+            <details>
+                <summary>Multimedia</summary>
+                <img src="https://upload.wikimedia.org/wikipedia/en/8/84/In_the_Court_of_the_Crimson_King_-_40th_Anniversary_Box_Set_-_Front_cover.jpeg" alt="Crimson King">
+                <figure>
+                    <figcaption>Listen to King Crimson</figcaption>
+                        <audio
+                            controls
+                            src="05 The Court of the Crimson King.mp3">
+                            Your browser does not support the
+                            <code>audio</code> element.
+                        </audio>
+                </figure>
+                <video controls width="250">
+                    <source src="IMG_0895.MOV" type="video/mp4">
+                    Sorry, your browser doesn't support embedded videos.
+                </video>
+            </details>
+            </div>
+        </main>
+
+        <form>
+            <label for="snack">Favorite Snack</label>
+            <input type="text" id="snack" name="fsnack">
+        </form>
+
+        <form action="/action_page.php">
+            <fieldset>
+              <legend>Tell me about yourself</legend>
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname"><br><br>
+              <label for="lname">Last name:</label>
+              <input type="text" id="lname" name="lname"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email"><br><br>
+              <label for="birthday">Birthday:</label>
+              <input type="date" id="birthday" name="birthday"><br><br>
+              <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+        <label for="review">Review my site:</label>
+        <textarea id="review" name="review" rows="4" cols="50">
+            Leave a review.
+        </textarea><br>
+
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist><br>
+
+        <label for="rate">Rate from 1-5</label>
+        <select name="rate" id="rate">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select> <br>
+
+        <button type="button">Click me punk.</button>
+
+        <footer>
+            <p><span style="color:green">Author: Matthew Green</span></p>
+        </footer>
+    </body>
+</html>
